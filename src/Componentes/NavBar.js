@@ -1,11 +1,13 @@
-const Nav_Bar = () => {
+import logo from "../reactluminoso.png";
+
+const NavBar = () => {
     return (
         <header>
             <h1>Compra tu HardWare</h1>
             <span className="material-icons">
                 lightbulb
             </span>
-            <image src="/public/reactluminoso.png"></image>
+            <image src={logo}></image>
             <nav>
                 <a href="">link</a>
                 <a href="">link</a>
@@ -15,4 +17,4 @@ const Nav_Bar = () => {
     )
 }
 
-export default Nav_Bar
+export default NavBar

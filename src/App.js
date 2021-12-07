@@ -1,9 +1,9 @@
-import Nav_Bar from "./Componentes/Nav_Bar"
+import NavBar from "./Componentes/NavBar"
 
 function App () {
     return (
         <>
-            <Nav_Bar/>
+            <NavBar/>
             <main>Mi main</main>
         </>
     )
