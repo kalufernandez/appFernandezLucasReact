@@ -1,18 +1,17 @@
-import logo from "../reactluminoso.png";
+import logo from "../assets/reactluminoso.png";
+import CartWidget from "../Componentes/CartWidget";
 
 const NavBar = () => {
     return (
         <header>
             <h1>Compra tu HardWare</h1>
-            <span className="material-icons">
-                lightbulb
-            </span>
+            <CartWidget/>
             <image src={logo}></image>
-            <nav>
+            {/* <nav>
                 <a href="">link</a>
                 <a href="">link</a>
                 <a href="">link</a>
-            </nav>
+            </nav> */}
         </header>
     )
 }
