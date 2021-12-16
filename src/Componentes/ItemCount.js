@@ -10,14 +10,14 @@ function ItemCount ({initial, stock, onAdd}) {
 
 
     const sumar = () => {
-        if {contador} >= 0 && {contador} <= {stock} { 
+        if ({contador} === 0 && {contador} === {stock}) { 
             setcontador(contador+1) //Le paso como parametro contador + lo que quiero que aumente. Siempre se tiene que ejecutar primero la funcion.
             return contador
         }
     } 
 
     const restar = () => {
-        if {contador} == 1 {
+        if ({contador} == 1) {
             setcontador(contador+1)
             return contador
         
