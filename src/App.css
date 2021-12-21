@@ -9,13 +9,12 @@ ul{
 }
 ul a{
   text-decoration: none;
-  color: rgb(50, 50, 78)
+  color: white
 }
 nav{
   width: 80%;
   margin-top: 2rem;
   padding: 0.5rem;  
-  background-color: rgb(170, 165, 165);
 }
 .titulo{
   width: 100%;
@@ -29,8 +28,9 @@ nav{
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: rgb(50, 50, 78);
+  color: white;
   margin: auto;
+  background-color: rgba(0, 0, 0, 0.507);
 }
 .head img{  
   height: 2rem;
@@ -73,6 +73,7 @@ h2{
   background-color: grey;
   padding: .5rem;
   border-radius: 50%;
+  color: black;
 }
 .carritoNav{
   position: relative;
